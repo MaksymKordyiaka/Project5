@@ -16,7 +16,7 @@ def func1(lst1: list, lst2 = [6, 7, 8, 9 ,10]):
 dct1 = func1([1, 2, 3, 4, 5])
 print(dct1)
 
-def func2(lst1: list,lst2: list):
+def func2(lst1: list, lst2: list):
     for element in lst1:
         if type(element) == set:
             lst1.remove(element)
